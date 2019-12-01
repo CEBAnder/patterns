@@ -8,6 +8,8 @@ namespace UseCases
         {
             Iterator.IterateTree();
 
+            Command.UseCommand();
+
             Console.ReadKey();
         }
     }

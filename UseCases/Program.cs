@@ -10,6 +10,8 @@ namespace UseCases
 
             Command.UseCommand();
 
+            Visitor.UseVisitor();
+
             Console.ReadKey();
         }
     }

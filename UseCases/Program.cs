@@ -12,6 +12,8 @@ namespace UseCases
 
             Visitor.UseVisitor();
 
+            Observer.UseObserver();
+
             Console.ReadKey();
         }
     }

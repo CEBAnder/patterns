@@ -16,6 +16,8 @@ namespace UseCases
 
             State.UseState();
 
+            FactoryMethod.UseFactoryMethod();
+
             Console.ReadKey();
         }
     }

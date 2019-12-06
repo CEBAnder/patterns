@@ -18,6 +18,8 @@ namespace UseCases
 
             FactoryMethod.UseFactoryMethod();
 
+            Builder.UseBuilder();
+
             Console.ReadKey();
         }
     }

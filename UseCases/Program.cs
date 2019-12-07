@@ -20,6 +20,8 @@ namespace UseCases
 
             Builder.UseBuilder();
 
+            AbstractFactory.UseAbstractFactory();
+
             Console.ReadKey();
         }
     }

@@ -22,6 +22,8 @@ namespace UseCases
 
             AbstractFactory.UseAbstractFactory();
 
+            Prototype.UsePrototype();
+
             Console.ReadKey();
         }
     }

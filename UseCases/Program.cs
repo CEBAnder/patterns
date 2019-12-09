@@ -24,6 +24,8 @@ namespace UseCases
 
             Prototype.UsePrototype();
 
+            Adapter.UseAdapter();
+
             Console.ReadKey();
         }
     }

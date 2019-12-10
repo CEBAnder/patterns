@@ -26,6 +26,8 @@ namespace UseCases
 
             Adapter.UseAdapter();
 
+            Decorator.UseDecorator();
+
             Console.ReadKey();
         }
     }

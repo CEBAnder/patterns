@@ -28,6 +28,8 @@ namespace UseCases
 
             Decorator.UseDecorator();
 
+            Facade.UseFacade();
+
             Console.ReadKey();
         }
     }

@@ -32,7 +32,10 @@ namespace Patterns.Iterator
 
                 _visitedNodes.Add(current);
 
-                _notVisitedNodes.AddRange(current.ChildNodes);
+                if (current.HasChildren)
+                {
+                    _notVisitedNodes.AddRange(current.GetChildren());
+                }
 
                 _notVisitedNodes.Remove(current);
 

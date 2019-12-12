@@ -1,18 +1,24 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace Patterns.Iterator
 {
     public class TreeNode : IEnumerable<TreeNode>
     {
-        public int NodeValue;
+        public readonly int NodeValue;
 
-        public List<TreeNode> ChildNodes;
+        public readonly bool HasChildren;
 
-        public TreeNode(int value)
+        public virtual List<TreeNode> GetChildren()
+        {
+            throw new Exception();
+        }
+
+        public TreeNode(int value, bool hasChildren = false)
         {
             NodeValue = value;
-            ChildNodes = new List<TreeNode>();
+            HasChildren = hasChildren;
         }
 
         public IEnumerator<TreeNode> GetEnumerator()

@@ -30,6 +30,8 @@ namespace UseCases
 
             Facade.UseFacade();
 
+            Proxy.UseProxy();
+
             Console.ReadKey();
         }
     }

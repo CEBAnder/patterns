@@ -32,6 +32,8 @@ namespace UseCases
 
             Proxy.UseProxy();
 
+            Bridge.UseBridge();
+
             Console.ReadKey();
         }
     }

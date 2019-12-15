@@ -34,6 +34,8 @@ namespace UseCases
 
             Bridge.UseBridge();
 
+            Flyweight.UseFlyweight();
+
             Console.ReadKey();
         }
     }
